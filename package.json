@@ -1,0 +1,28 @@
+{
+    "name": "discord-authentication",
+    "version": "1.0.0",
+    "description": "Simple discord oauth2 authentication in expressjs",
+    "main": "index.js",
+    "scripts": {
+        "start": "cross-env NODE_ENV=production node index.js",
+        "dev": "cross-env NODE_ENV=development node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NEEROL/discord-authentication.git"
+    },
+    "author": "NEEROL",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/NEEROL/discord-authentication/issues"
+    },
+    "homepage": "https://github.com/NEEROL/discord-authentication#readme",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "cors": "^2.8.5",
+        "cross-env": "^7.0.3",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-session": "^1.17.2"
+    }
+}
